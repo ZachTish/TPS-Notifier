@@ -3,14 +3,14 @@
   "ntfyTopic": "obsidian_alerts",
   "ntfyPriority": 3,
   "deviceRole": "controller",
-  "pollMinutes": 2,
+  "pollMinutes": 0.5,
   "reminders": [
     {
       "id": "reminder-1765736094027",
       "property": "scheduled",
       "enabled": true,
       "offsetMinutes": -15,
-      "repeatUntilComplete": false,
+      "repeatUntilComplete": true,
       "repeatIntervalMinutes": 1,
       "maxRepeats": -1,
       "stopConditions": [
@@ -8606,7 +8606,8 @@
         "lastSent": 1768580623370,
         "dismissed": false
       }
-    }
+    },
+    "01 Action Items/Todo/testingblock.md": {}
   },
   "ignorePaths": [
     "System/"
